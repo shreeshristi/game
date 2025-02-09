@@ -1,0 +1,38 @@
+gorillas
+1.drawing in html using canvas element
+2.drawing gorillas and bomb
+3. drawing destructible buildings
+4.drawing background
+5.how to aim
+6.how to animate
+7.detecting collision with building or gorillas
+
+
+new game()  {game state inoitializes} 
+--> draw func() 
+    -->draw background -->draw background buildings -->draw main buildings -->draw gorilla 1 and 2-->draw bomb
+--> aiming
+--> throw bomb func()
+--> animation func()
+--> collision detection(either to another gorilla or building or bomb goes outside)
+--> points updated as necessary
+--> loop continues
+
+
+Problem(1):
+-->angle1DOM showing null value during aiming feature addition
+Solution:
+const angle1DOM = document.querySelector("#info-left .angle");
+//changed to
+const info1DOM = document.getElementById("info-left");
+const angle1DOM=info1DOM.querySelector('.angle');
+
+Problem(2):
+-->after hitting enemy gorilla celebrating gorilla face was not showing
+Solution:
+async-await function implemented
+
+Problem(3):
+-->after the first hit , a player may take note of the present angle and speed and continue hitting his opponent
+Solution:
+change of windspeed after each hit: maintains relevance of points

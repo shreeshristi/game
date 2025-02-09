@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#new1{
+    position: absolute;
+    top: 20px;
+    left: 30vw;
+    width: 10vw;
+    text-align: center;
+    border: 3px solid rgb(153, 0, 255);
+    background-color: white;
+    cursor: pointer;
+}
+
+#new2{
+    position: absolute;
+    top: 20px;
+    left: 45vw;
+    width: 10vw;
+    text-align: center;
+    border: 3px solid rgb(153, 0, 255);
+    background-color: white;
+    cursor: pointer;
+}
+
+#info-left{
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    width: 100px;
+    text-align: center;
+    border: 3px solid rgb(153, 0, 255);
+    background-color: white;
+}
+
+#info-right{
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    width: 100px;
+    text-align: center;
+    border: 3px solid rgb(153, 0, 255);
+    background-color: white;
+}
+
+#wind-info{
+    position: absolute;
+    bottom: 15px;
+    left: 50vw;
+    width: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+#bomb-grab-area{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: grab;
+}
+
